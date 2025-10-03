@@ -1,41 +1,46 @@
-# Material Components for Flutter Codelabs
+# Exemplo Shrine (Material Components Flutter)
 
-This repository contains four codelabs for [Material Components for Flutter](https://github.com/material-components/material-components-flutter).
+## Descrição
+Pequeno projeto de exemplo que demonstra como aplicar temas (cores, tipografia, formas) e usar componentes do Material em Flutter.
 
-## Introduction
+---
 
-Codelabs MDC-101 through MDC-104 will guide you through building and integrating one application with MDC-Flutter.
+## Informações do Projeto
+- **Autor:** Marco Antonio Bubiola
+- **Disciplina:** Programação para Dispositivos Móveis
 
-## Branches
+---
 
-The starter and completed code is in the various branches of this repo.
+## Principais Features
+- 🎨 **Theming personalizado:** cores, tipografia e formas adaptadas ao Material Design.
+- 🛍️ **Layout de produtos:** grid/visão assimétrica para exibição de itens.
+- 🖋️ **Campos de texto e botões estilizados:** seguindo o padrão Material.
 
-## Getting Started
+---
 
-Visit the [Google codelabs site](https://codelabs.developers.google.com/), or [codelabs.developers.google.com/codelabs/mdc-103-flutter](https://codelabs.developers.google.com/codelabs/mdc-103-flutter), to follow along the guided steps.
+## Requisitos
+- Flutter SDK instalado
 
-## Support
+---
 
-If you've found an error in this sample, please file an issue on [GitHub](https://github.com/material-components/material-components-flutter-codelabs/issues).
+## Como Executar (PowerShell, Windows)
+1. Abra o PowerShell.
+2. Navegue até o diretório do projeto:
+   ```powershell
+   cd "c:\projetos\material-components-flutter-codelabs-103-starter_and_102-complete\mdc_100_series"
+   ```
+3. Instale as dependências:
+   ```powershell
+   flutter pub get
+   ```
+4. Execute o projeto no navegador:
+   ```powershell
+   flutter run -d chrome
+   ```
 
-Patches are encouraged, and may be submitted by forking this project and
-submitting a pull request through GitHub.
+---
 
-## License
+## Observação
+Este repositório é um código de exemplo usado em aulas práticas.
 
-Copyright 2018 Google, Inc.
 
-Licensed to the Apache Software Foundation (ASF) under one or more contributor
-license agreements. See the NOTICE file distributed with this work for
-additional information regarding copyright ownership. The ASF licenses this
-file to you under the Apache License, Version 2.0 (the "License"); you may not
-use this file except in compliance with the License. You may obtain a copy of
-the License at
-
-http://www.apache.org/licenses/LICENSE-2.0
-
-Unless required by applicable law or agreed to in writing, software
-distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
-WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
-License for the specific language governing permissions and limitations under
-the License.
